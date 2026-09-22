@@ -1,4 +1,4 @@
-# video-material-rename
+# video-material-content-rename
 
 > 给一堆 `C0769.MP4` 这样的机器编号素材，按**画面 + 语音**内容批量重命名，并生成可检索的素材索引。
 
@@ -9,7 +9,7 @@ An AI-in-the-loop toolkit that renames camera-roll files by what's actually *in*
 
 [English](README.md) | 中文
 
-![video-material-rename — 按画面和语音内容批量重命名素材](assets/social-preview.png)
+![video-material-content-rename — 按画面和语音内容批量重命名素材](assets/social-preview.png)
 
 ---
 
@@ -67,8 +67,8 @@ apply.py        两阶段重命名 + 一键回滚          |   （并行补充�
 ## 快速开始
 
 ```bash
-git clone https://github.com/Moethun/video-material-rename.git
-cd video-material-rename
+git clone https://github.com/Moethun/video-material-content-rename.git
+cd video-material-content-rename
 pip install -r requirements.txt
 
 # 没有素材？先生成一批测试用的
@@ -215,7 +215,7 @@ python scripts/apply.py --src "D:/素材" --reverse                          # �
 ## 目录结构
 
 ```
-video-material-rename/
+video-material-content-rename/
 ├── SKILL.md                    Agent Skill 入口（英文，默认门面，含全部决策依据）
 ├── SKILL.zh-CN.md              Agent Skill 入口（中文）
 ├── README.md                   英文（默认门面）

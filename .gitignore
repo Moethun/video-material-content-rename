@@ -1,0 +1,41 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Tool working dirs (never commit) ----
+_wtmp/
+_wframes/
+_sheets/
+
+# ---- Intermediates: probe.py ----
+_report.txt
+_hashmap.tsv
+
+# ---- Intermediates: plan.py ----
+_meta.json
+_mapping.tsv
+
+# ---- Rename bookkeeping: apply.py (used by one-key undo) ----
+_rename_done.tsv
+_rename_done.reversed.tsv
+
+# ---- Media extracts / subtitles ----
+*.wav
+*.srt
+
+# ---- Generated review sheets (plan.py writes these names literally) ----
+重命名对照表.html
+重命名对照表.tsv
+
+# ---- Example naming for the transcript index / narration list ----
+footage-index.tsv
+narration-list.txt
+
+# ---- OS noise ----
+.DS_Store
+Thumbs.db
+desktop.ini

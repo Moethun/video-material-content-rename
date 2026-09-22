@@ -1,0 +1,17 @@
+# 视频素材按内容重命名 —— 依赖
+#
+# 核心：语音转写
+# 这里用 faster-whisper 而不是 openai-whisper。
+# 后者依赖 torch（装完 2GB+），前者只需要 ctranslate2 + onnxruntime（约 75MB），
+# 纯 wheel 无需编译，CPU 上快 4-5 倍。
+faster-whisper>=1.0.0
+
+# 视频/音频处理：自带 ffmpeg 二进制，无需系统级安装
+imageio-ffmpeg>=0.4.9
+
+# 抽帧拼图
+Pillow>=9.0.0
+numpy>=1.20.0
+
+# 中文简繁统一（whisper 中文输出简繁不稳，会混排）
+zhconv>=1.4.3

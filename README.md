@@ -1,4 +1,4 @@
-# video-material-rename
+# video-material-content-rename
 
 > Give a folder full of machine-named clips like `C0769.MP4` a real set of filenames — derived from **what's on screen and what's being said** — plus a searchable index of the footage.
 

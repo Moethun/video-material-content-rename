@@ -9,7 +9,7 @@ An AI-in-the-loop toolkit for footage that arrives with machine-generated filena
 
 English | [中文](README.zh-CN.md)
 
-![video-material-rename — name your footage by what's actually in it](assets/social-preview.png)
+![video-material-content-rename — name your footage by what's actually in it](assets/social-preview.png)
 
 ---
 
@@ -72,8 +72,8 @@ semantic work (recognizing what's in a shot) goes to a model that can see.
 ## Quick start
 
 ```bash
-git clone https://github.com/Moethun/video-material-rename.git
-cd video-material-rename
+git clone https://github.com/Moethun/video-material-content-rename.git
+cd video-material-content-rename
 pip install -r requirements.txt
 
 # No footage handy? Generate a test set first.
@@ -238,7 +238,7 @@ why these specific threshold values. A Chinese version lives in
 ## Repository layout
 
 ```
-video-material-rename/
+video-material-content-rename/
 ├── SKILL.md                    Agent Skill entry point (all decision rationale)
 ├── SKILL.zh-CN.md              Agent Skill entry point（中文）
 ├── README.md                   English
